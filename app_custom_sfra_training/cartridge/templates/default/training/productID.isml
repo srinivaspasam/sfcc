@@ -1,0 +1,5 @@
+<isdecorate template="common/layout/page"> 
+<isloop items="${pdict.mod1}" var="elements"> 
+<h1>${elements.name}</h1> 
+ </isloop>  
+ </isdecorate>

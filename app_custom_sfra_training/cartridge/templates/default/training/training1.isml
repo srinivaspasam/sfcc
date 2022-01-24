@@ -1,0 +1,6 @@
+<isloop items="${pdict.al}" var="element" status="st">
+<isif condition="${st.even}">
+<iscontinue/>
+</isif>
+<h1>${element}</h1>
+ </isloop>
